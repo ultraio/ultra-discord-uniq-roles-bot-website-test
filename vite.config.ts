@@ -13,7 +13,7 @@ if (args.find((x) => x.includes('mode=dev'))) {
 export default defineConfig({
     plugins,
     build: {
-        outDir: '../server/dist/html',
+        outDir: 'dist/html',
         emptyOutDir: true,
     },
     server: {

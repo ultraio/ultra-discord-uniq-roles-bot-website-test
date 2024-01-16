@@ -11,15 +11,15 @@ From the root directory of this monorepo; run any of the following commands.
 Spins up a localhost server to perform development. This spins up a `Vite` server on port `3000` (usually) and allows you to make changes and view them in your browser.
 
 ```
-npm run vue-dev -w client
+npm run vue-dev
 ```
 
 ### Build
 
-Builds the client-side into a single page application, and pushes it to the server folder under `packages/server/dist/html`.
+Builds the client-side into a single page application, and pushes it to the folder under `dist/html`.
 
 ```
-npm run build -w client
+npm run build
 ```
 
 ## Folder Structure
