@@ -16,7 +16,7 @@ npm run vue-dev
 
 ### Build
 
-Builds the client-side into a single page application, and pushes it to the folder under `dist/html`.
+Builds the client-side into a single page application, and pushes it to the `dist` folder.
 
 ```
 npm run build
