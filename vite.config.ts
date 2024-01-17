@@ -19,6 +19,6 @@ export default defineConfig({
     server: {
         host: 'localhost',
         https: true,
-        port: 3103,
+        port: 3102,
     },
 });
