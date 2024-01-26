@@ -27,3 +27,5 @@ npm run build
 This is a traditional Vite + Vue folder structure with TypeScript.
 
 Everything is inside of the `src` directory.
+
+## Test
