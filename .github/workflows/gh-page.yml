@@ -20,8 +20,11 @@ jobs:
         run: npm install
       - name: Build 
         run: npm run build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: dist
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: discord-test # Replace with your Cloudflare project name
+          directory: dist # Replace if your build directory is different
+          wranglerVersion: "3"
